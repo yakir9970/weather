@@ -1,0 +1,96 @@
+.forecast-wrapper{
+    background-color: rgb(245, 249, 253);
+    width: 55%;
+    border-radius: 35px;
+    margin: 100px auto;
+    padding: 30px;
+    filter: drop-shadow(15px 15px 8px #9999cc);
+}
+
+.title{
+    font-size: 2rem;
+    padding: 20px;
+    padding-top: 30px;
+    color: #353536;
+    font-weight: bold;
+}
+
+.daily-item{
+    display: flex;
+    align-items: center;
+}
+
+.icon-temp{
+    display: flex;
+    align-items: center;
+    margin-right: 20%;
+    justify-content: space-evenly;
+}
+
+.icon-small{
+    width: 25%;
+}
+
+.min-max{
+    font-size: 3rem;
+    font-weight: bold;
+    color: #353536;
+    padding: 15px;
+}
+
+.forecast-text{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+
+.day{
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.description{
+    font-size: 1.5rem;
+}
+
+.expand{
+    margin-left: auto;
+    margin-right: 0;
+    font-size: 1.5rem;
+}
+
+@media screen and (max-width: 750px) {
+    .title{
+        font-size: 1rem;
+    }
+.icon-small{
+    width: 20%;
+}
+
+.min-max{
+    font-size: 2rem;
+}
+.day{
+    font-size: 1rem;
+}
+
+.description{
+    font-size: 1rem;
+}
+.icon-temp{
+    justify-content: flex-start;
+}
+
+}
+
+@media screen and (max-width: 500px) {
+    .forecast-text{
+        width: 120%;
+        margin-right: 10%;
+    }
+    .icon-small{
+        width: 40%;
+    }
+
+}
+
