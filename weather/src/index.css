@@ -1,0 +1,8 @@
+body{
+    margin:0;
+    font-family: "Roboto",Arial !important;
+    background-color: rgb(224, 222, 222);
+    /*background: linear-gradient(#474d91, #a5acf7) ;*/
+    background-attachment: fixed;
+
+}
