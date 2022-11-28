@@ -32,6 +32,7 @@ function App() {
   };
 
   console.log(forecast);
+  console.log(currentWeather);
 
   return (
     <div className="container">

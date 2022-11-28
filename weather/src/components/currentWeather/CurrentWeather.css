@@ -50,6 +50,34 @@
    text-align: center;
 }
 
+.current-day{
+    font-weight: bold;
+    color: white; 
+   font-size: 2rem;
+   line-height: 1;
+   margin: 3% auto;
+   text-align: center;
+}
+
+.bottom-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.bottom-item{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 10px;
+    color: white; 
+    font-size: 1.2rem;
+}
+
+hr{
+    margin-top: -20px;
+    margin-bottom: 20px;
+}
+
 @media screen and (max-width: 750px) {
     .weather{
         width: 65%;
@@ -63,10 +91,19 @@
     .city{
         font-size: 3rem;
     }
+    .current-day{
+        font-size: 1.5rem;
+    }
 }
 
 @media screen and (max-width: 500px) {
     .city{
         font-size: 2rem;
+    }
+    .current-day{
+        font-size: 1rem;
+    }
+    .bottom-item{
+    font-size: 0.9rem;
     }
 }
