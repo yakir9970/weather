@@ -124,6 +124,9 @@
     .daily-details-grid{
         grid-template-columns: 1fr;
     }
+    .expand{
+        display: none;
+    }
 
 }
 
